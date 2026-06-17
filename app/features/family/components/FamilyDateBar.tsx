@@ -67,7 +67,7 @@ export function FamilyDateBar() {
           📌 CALENDAR (열린 상태)
       ========================= */}
       {open && (
-        <div className="flex justify-center py-3 animate-in fade-in slide-in-from-top-2 duration-200">
+        <div className="flex justify-center py-3 animate-in fade-in slide-in-from-top-2 duration-200 absolute w-full left-0 z-1">
 
           <div className="w-full max-w-md">
 

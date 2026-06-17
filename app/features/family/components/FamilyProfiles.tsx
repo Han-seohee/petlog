@@ -1,5 +1,4 @@
-import { FamilyProfile } from "@/app/components/FamilyProfile";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { FamilyProfile } from "@/app/features/family/components/FamilyProfile";
 import { Button } from "@/components/ui/button";
 
 export function FamilyProfiles() {

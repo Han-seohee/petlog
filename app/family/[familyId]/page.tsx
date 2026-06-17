@@ -1,6 +1,6 @@
 import { FamilyHeader } from "@/app/features/family/components/FamilyHeader";
 import { FamilyProfiles } from "@/app/features/family/components/FamilyProfiles";
-import { Records } from "@/app/features/family/components/Records";
+import { PetRecords } from "@/app/features/family/components/PetRecords";
 
     export default function FamilyPage({ params }: { params: { familyId: string } }) {
     return (
@@ -9,8 +9,8 @@ import { Records } from "@/app/features/family/components/Records";
             <FamilyHeader />
             {/* Profiles */}
             <FamilyProfiles />
-            {/* Records */}
-            <Records />
+            {/* PetRecords */}
+            <PetRecords />
         </div>
     );
 }
